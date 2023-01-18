@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl_1.css">
+    <title>Karty wędkarskie</title>
+</head>
+<body>
+    <div id="container">
+        <section id="banner">
+            <h2>Zgłoszenie na kartę wędkarską</h2>
+        </section>
+        <section id="content">
+            <h4>Formularz - karta wędkarska</h4><br>
+                <form action="http://localhost/egzaminy/ee-09-2022-01-01/pesel/zapisz.php" method="post">
+                    imię:<br><input type="text" name="imie"><br>
+                    nazwisko:<br><input type="text" name="nazwisko"><br>
+                    adres:<br><input type="text" size="30" name="adres"><br>
+                    <button type="reset">CZYŚĆ</button>
+                    <button type="submit" id="submit">ZAPISZ</button>
+                </form>
+                
+        </section>
+        <section id="block1">
+            <h4>Typy łowisk</h4>
+            <ul>
+                <li>Zalewy</li>
+                <li>Stawy</li>
+                <li>Jeziora</li>
+                <li>Rzeki</li>
+            </ul>
+        </section>
+        <section id="block2">
+            <img src="wedka.jpg" alt="karta wędkarska" height="220px">
+        </section>
+        <section id="block3">
+            <p>Stronę przygotował: #00000000000000</p><br>
+            <a href="http://www.kartawedkarska.pl/" id="link">Karta wędkarska</a>
+        </section>
+        <div name="wynik">
+            
+        </div>
+    </div>
+
+
+</body>
+</html>

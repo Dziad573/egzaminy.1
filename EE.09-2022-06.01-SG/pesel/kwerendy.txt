@@ -1,0 +1,7 @@
+1. INSERT INTO odpowiedzi (Pytania_id, konta_id, odpowiedz) VALUES ('1', '5', 'Przyda Ci się także wysoki stół, na którym postawisz pieska.');
+
+2.SELECT nick, SUM(2022 - rejestracja) as latNaForum FROM konta WHERE nick = 'Jacek' OR nick = 'Tomek' OR nick = 'Monika' GROUP BY nick;
+
+3. SELECT nick, postow, pytanie FROM konta, pytania WHERE konta.id = pytania.konta_id AND konta_id = 1;
+
+4.SELECT odpowiedzi.id, odpowiedzi.odpowiedz, konta.nick FROM odpowiedzi,konta WHERE odpowiedzi.konta_id=konta.id AND Pytania_id = 1;

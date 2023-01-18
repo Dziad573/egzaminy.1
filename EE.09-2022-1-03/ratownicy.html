@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Zespoły ratownicze</title>
+    <link rel="stylesheet" href="styl3.css">
+</head>
+<body>
+    <section id="baner-lewy"><h2>Dodanie zespołu ratowniczego</h2></section>
+    <section id="baner-srodek"><p>Kontakt:<br> 022 222 11 333</p></section>
+    <section id="baner-prawy"><img src="obraz.jpg" alt="Ratownicy"></section>
+    <section id="glowny">
+        <h3>Dodaj nowy zespół</h3>
+        <form action="http://localhost/egzaminy/EE.09-2022-1-03/dodanie.php" method="post">
+            Numer karetki:<br>
+            <input type="number" name="nr" id=""><br>
+            Imię i nazwisko pierwszego ratownika:<br>
+            <input type="text" name="imie1" id=""><br>
+            Imię i nazwisko drugiego ratownika:<br>
+            <input type="text" name="imie2" id=""><br>
+            Imię i nazwisko trzeciego ratownika:<br>
+            <input type="text" name="imie3" id=""><br>
+            <input type="reset" value="CZYŚĆ">
+            <input type="submit" value="DODAJ">
+        </form>
+    </section>
+    <section id="stopka-lewy"><a href="kwerendy.txt" download="kwerendy.txt">Zobacz kwerendy</a></section>
+    <section id="stopka-srodek">
+        <h5>Przypominamy numery alarmowe</h5>
+        <ol type="a">
+            <li>112</li>
+            <li>999</li>
+        </ol>
+    </section>
+    <section id="stopka-prawy">
+        <p>Autor<br>
+        #0000000000</p>
+    </section>
+</body>
+</html>
