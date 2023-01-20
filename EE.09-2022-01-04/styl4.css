@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Garamond;
+    margin: 0px;
+}
+#baner{
+    background-color: SaddleBrown;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+#blok1{
+    background-color: tan;
+    height: 500px;
+    width: 40%;
+    float: left;
+}
+#blok2, #blok3{
+    background-color: tan;
+    height: 250px;
+    width: 60%;
+    float: left;
+}
+#stopka{
+    background-color: SaddleBrown;
+    color: white;
+}
+form{
+    background-color: saddlebrown;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    width: 300px;
+}
+form>input{
+    margin: 5px;
+}
+p{
+   
+}
+p:before{
+    content: "STATUS: ";
+}

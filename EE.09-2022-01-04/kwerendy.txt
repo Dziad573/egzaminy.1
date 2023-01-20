@@ -1,0 +1,4 @@
+1. CREATE TABLE `uzytkownicy` ( `id` INT AUTO_INCREMENT PRIMARY KEY NOT null, `login` varchar(50), `haslo` varchar(50) );
+2.CREATE USER 'Grzegorz' identified BY 'g';
+3.SELECT login FROM uzytkownicy;
+4.
