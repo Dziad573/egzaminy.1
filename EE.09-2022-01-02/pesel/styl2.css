@@ -1,0 +1,53 @@
+body{
+    font-family: Helvetica;
+}
+#baner-lewy{
+    background-color: rgb(70, 130, 180);
+    color: white;
+    width: 25%;
+    height: 80px;
+    float: left;
+}
+#baner-srodek{
+    background-color: rgb(70, 130, 180);
+    color: white;
+    height: 80px;
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+#baner-prawy{
+    background-color: rgb(70, 130, 180);
+    color: white;
+    width: 25%;
+    height: 80px;
+    float: left;
+}
+#blok-glowny{
+    background-color: rgb(224, 255, 255);
+    padding: 40px;
+    clear: both;
+}
+#blok-dol1, #blok-dol2{
+    background-color: rgb(70, 130, 180);
+    width: 50%;
+    height: 200px;
+    text-align: center;
+    float: left;
+}
+#stopka{
+    background-color: rgb(224, 255, 255);
+}
+table{
+    border: 1px solid blue;
+    width: 100%;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid blue;
+}
+th{
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+}
